@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ProfilePic {
+  vertical-align: middle;
+  height: 400px;
+  border-radius: 50%;
+}
