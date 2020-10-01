@@ -52,7 +52,10 @@ export default function Home() {
           <br></br>
           My undergraduate studies specialized me in being a problem 
           solver, hard worker, and being able to learn and evolve, when 
-          needed, to find a solution to the problem at hand.
+          needed, to find a solution to the problem at hand. Now that I 
+          have graduated, I'm excited to bring the skills I've learned 
+          into a professional setting where I can expand my skillset even
+          further.
         </h3>
         </a>
         
