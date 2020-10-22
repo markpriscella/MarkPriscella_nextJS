@@ -20,3 +20,16 @@ a {
   height: 400px;
   border-radius: 50%;
 }
+
+.background {
+  /* The image used */
+  background-image: url("/public/green_wave_mp.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

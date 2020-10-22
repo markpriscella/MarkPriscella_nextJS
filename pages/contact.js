@@ -1,5 +1,11 @@
+import React from "react"
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Name_and_Pic from '../components/name_and_pic'
+import Contact_Info from '../components/contact_info'
+import Return_Home from '../components/return_home'
+import Footer from '../components/footer'
+import Contact_Links from "../components/contact_links"
 
 export default function Home() {
   return (
@@ -12,56 +18,20 @@ export default function Home() {
 
       <main className={styles.main}>
 
-      <img src="/MarkProfile.png" alt="Mark's Profile Photo" 
-        className={styles.ProfilePic}/>
+      <Name_and_Pic/>
 
-        <h1 className={styles.title}>
-          Mark Priscella
-        </h1>
+      <Contact_Info/>
 
-        <p className={styles.description}>
-          {/* add a description under Mark Priscella here */}
-          markpriscella@gmail.com <br></br>
-          Cell: 508-561-0188 <br></br>
-          Home: 508-651-3527
-        </p>
+      <Contact_Links/>
 
+      <br></br>
 
-        <table>
-          <a  
-          href="https://www.linkedin.com/in/mark-priscella/">
-            <img src='/linkedin_icon.png' 
-                alt="LinkedIn Icon"
-                width="200p"
-                ></img> 
-          </a>
-
-          <a  
-          href="https://github.com/markpriscella">
-            <img src='/github_icon.png' 
-                alt="Github Icon"
-                width="200p"
-                ></img> 
-          </a>
-
-        </table>
-
-        <br></br>
-
-        <a href="/"  className={styles.card}>
-          <div>
-            <h3>Return Home</h3>
-            <p></p>
-          </div>
-        </a>
+      {/* button to return home */}
+      <Return_Home/>
         
       </main>
 
-      <footer className={styles.footer}>
-        <a>
-          Created by Mark Priscella using nextJS
-        </a>
-      </footer>
+      <Footer/>
     </div>
   )
 }
